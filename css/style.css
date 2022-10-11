@@ -1,0 +1,197 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+		"Helvetica Neue", sans-serif;
+}
+
+::-webkit-scrollbar {
+	width: 9px;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: rgba(255, 255, 255, 0.459);
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgba(0, 0, 0, 0.212);
+	border: 1px solid rgba(0, 0, 0, 0.521);
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: rgba(0, 0, 0, 0.397);
+}
+
+body {
+	background: rgb(3, 3, 46);
+	color: white;
+}
+
+.custom-top {
+	width: 100vw;
+	height: 100vh;
+	margin: 0 auto;
+}
+
+.carousel-enlarge:hover {
+	padding: 17px;
+}
+.carousel-enlarge {
+	transition: 0.15s;
+}
+
+.custom-col {
+	background: palegreen;
+	padding: 2rem;
+	border: 2px solid;
+	color: black;
+}
+
+#profile-pic {
+	width: 70%;
+	background: orange;
+}
+
+.image-sector {
+	background-color: turquoise;
+	display: flex;
+	justify-content: center;
+}
+
+.py {
+	width: 100%;
+}
+
+.profile {
+	width: 30%;
+}
+
+.custom-about-me {
+	font-weight: bold;
+	border-bottom: 4px solid rgb(165, 110, 9);
+	display: grid;
+	place-content: center;
+	padding: 0px 3px;
+	width: fit-content;
+	transition: ease-in 0.15s;
+}
+
+.custom-about-me:hover,
+.custom-about-me:active {
+	border-color: rgb(233, 157, 17);
+}
+
+#about,
+#about2 {
+	background: rgba(0, 0, 0, 0.315);
+	padding: 1.2rem;
+	border-radius: 10px;
+	border: 1px solid;
+	border-color: #ffffff9d rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #ffffff9d;
+	backdrop-filter: blur(12px);
+	transition: ease-in-out 0.2s;
+}
+
+#about:hover {
+	padding: 1.3rem;
+}
+
+.asd {
+	width: fit-content;
+	display: flex;
+	justify-content: center;
+	background: red;
+}
+
+.stacks {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#custom-button,
+#custom-button-next {
+	border-radius: 0px;
+}
+
+#prev,
+#next {
+	transition: ease-in 0.5s;
+}
+#prev:hover,
+#next:hover {
+	padding: 20px;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	transition: ease-in 0.2s;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.my-name {
+	font-size: 20px;
+	color: #7be4b3;
+}
+
+.my-name {
+	animation: colorchanger 2s ease-in-out;
+}
+
+.f {
+	animation: shake 2s ease-in-out;
+}
+
+.custom-em {
+	font-size: 0.83rem;
+}
+
+footer {
+	word-wrap: break-word;
+}
+
+.icons{
+	padding: 2px;
+}
+
+svg{
+	width: 24px;
+	padding-bottom: 4px;
+}
+
+.twitter{
+	/* background: red; */
+	color: rgb(0, 175, 245);
+}
+
+.email{
+	color: rgb(0, 78, 245);
+}
+
+@keyframes colorchanger {
+	0% {
+		color: #198754;
+	}
+	100% {
+		color: #7be4b3;
+	}
+}
+
+@keyframes shake {
+	0% {
+		transform: translateX(-100%);
+		opacity: 0;
+	}
+	100% {
+		transform: translateX(0%);
+		opacity: 1;
+	}
+}
